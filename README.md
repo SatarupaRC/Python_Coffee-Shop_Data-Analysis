@@ -26,7 +26,7 @@ The research topics I investigated are as follows:
 
 **Overview of the Analytical Methods**
     
-- To get an initial understanding of the data, I conducted some explanatory analysis mainly evolving around the target variable ‘quantity’ sold in the coffee shop.
+- To get an initial understanding of the data, I conducted some exploratory analysis mainly evolving around the target variable ‘quantity’ sold in the coffee shop.
 - For forecasting sales, I have used OLS, and KNN.
 - For predicting the interaction effect of gender and age on sales I have used OLS with interaction term.
 - For measuring the magnitude of quantity change due to a change in price I have used Price Elasticity method. 
@@ -35,7 +35,7 @@ The research topics I investigated are as follows:
 
 **Data Pre-processing and Cleaning**
 
-  - **Explanatory Analysis**: In order to conduct the explanatory analysis, I first merged the files sales_receipts, and product on product_id and got around 50,000 rows. For variables with spaces in Product Category I used python codes to take out the spaces and replace them with hyphens. I also took dummies of product_category and tax_exemption_yn and finally dropped the null values to get the final table.
+  - **Exploratory Analysis**: In order to conduct the exploratory analysis, I first merged the files sales_receipts, and product on product_id and got around 50,000 rows. For variables with spaces in Product Category I used python codes to take out the spaces and replace them with hyphens. I also took dummies of product_category and tax_exemption_yn and finally dropped the null values to get the final table.
 
   - **Linear regression and KNN**: To predict if the quantity of products sold depends on the retail price, product category and tax exemption I merged the files sales_receipts, and product on product_id and took dummies of product_category and tax_exemption_yn for the OLS model. Besides this, I have split the data into test and training data and then conducted the KNN.
 
@@ -49,7 +49,7 @@ The research topics I investigated are as follows:
 
 ## Analysis and Interpretation
 
-**Explanatory Analysis**
+**Exploratory Analysis**
 
 - **Positive Correlations**:
   - Coffee: There’s a positive correlation between coffee and quantity sold. Customers seem to purchase more when coffee is involved.
